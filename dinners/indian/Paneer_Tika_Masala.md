@@ -26,4 +26,4 @@ Sauce
 Method
 -------
 
-Melt butter on med and suate garlic 1 min. Add spices, tomato suace and cream. Simmer on low for 20 mins. Add chicken and simmer for anotehr 10 min. Alternatively broil chicken, then add to sauce.
+Melt butter on med and saute garlic 1 min. Add spices, tomato suace and cream. Simmer on low for 20 mins. Add chicken and simmer for anotehr 10 min. Alternatively broil chicken, then add to sauce.
