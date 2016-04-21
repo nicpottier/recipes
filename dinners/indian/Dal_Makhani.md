@@ -1,5 +1,5 @@
 # Dal Makhani
-Adated from: http://www.oneingredientchef.com/dal-makhani/
+Adapted from: http://www.oneingredientchef.com/dal-makhani/
 
 ## Lentils
 - 3 cups water
