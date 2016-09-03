@@ -1,4 +1,8 @@
-# Bibimbap
++++
+title = "Bibimbap"
+date = "2016-09-03"
++++
+
 From: http://mykoreankitchen.com/bibimbap-korean-mixed-rice-with-meat-and-assorted-vegetables/
 And: http://cooking.nytimes.com/recipes/1015430-bibimbap-with-tofu-cucumbers-spinach-shiitakes-and-carrots
 
@@ -51,7 +55,3 @@ Combine all ingredients, mix well
 # Final preparation
 
 Prepare rice, fill bowl halfway. Add spinach, carrots, cucumbers and tofu and a fried egg. Cover with sauce to taste.
-
-
-
-

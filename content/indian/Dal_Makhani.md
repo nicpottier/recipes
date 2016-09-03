@@ -1,4 +1,8 @@
-# Dal Makhani
++++
+title = "Dal Makhani"
+date = "2016-09-03"
++++
+
 Adapted from: http://www.oneingredientchef.com/dal-makhani/
 
 ## Lentils
@@ -24,7 +28,7 @@ Bring to a boil, then simmer covered for approximately 20 minutes or until soft.
 - 3/4 cup cream
 
 Add oil to skillet on high heat, add onions and garlic. Cook for 5 minutes until onion softens.
-Add spices and continue cooking for 5 minutes, then add drained lentils and tomatoes. 
+Add spices and continue cooking for 5 minutes, then add drained lentils and tomatoes.
 Bring to a simmer and cook for 5 minutes, then remove a cup of the liquid and blend smooth, then add back in.
 Cook for another 5 minutes, then add cream. Let simmer for 15-20 minutes or until consistency is as you like.
 Salt to taste, serving over rice, garnish with cilantro.

@@ -1,4 +1,8 @@
-# Thai Red Curry
++++
+title = "Thai Red Curry"
+date = "2016-09-03"
++++
+
 From: http://cookieandkate.com/2015/thai-red-curry-recipe/
 
 # Ingredients

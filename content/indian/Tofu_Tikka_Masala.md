@@ -1,4 +1,8 @@
-# Tofu Tika Masala
++++
+title = "Tofu Tika Masala"
+date = "2016-09-03"
++++
+
 From: http://www.foodpleasureandhealth.com/2014/09/tofu-tikka-masala.html
 
 ## Tofu Rub

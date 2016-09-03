@@ -1,4 +1,8 @@
-# Peanut Broccoli Noodles
++++
+title = "Peanut Broccoli Noodles"
+date = "2016-09-03"
++++
+
 Sauce inspired by: http://www.foodnetwork.com/recipes/melissa-darabian/sesame-and-peanut-noodles-recipe.html
 
 ## Sauce
@@ -20,9 +24,8 @@ Sauce inspired by: http://www.foodnetwork.com/recipes/melissa-darabian/sesame-an
 
 Add ingredients together in blender, blend, dilute and salt to taste.
 
-Bring water to boil, cook rice noodles. 
+Bring water to boil, cook rice noodles.
 
 Cut broccoli and spniach into small pieces, pan fry with a bit of water to cook.
 
 Combine ingredients, garnish with green onions and chopped peanuts.
-

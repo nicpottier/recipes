@@ -1,0 +1,30 @@
+# Site settings
+baseurl = "http://recipes.netlify.com/"
+languageCode = "en-us"
+title = "Recipes"
+theme = "hyde-y"
+
+# Enter your tracking code to enable Google Analytics
+googleAnalytics = "UA-XXXXXXXX-Y"
+
+contentdir = "content"
+datadir = "data"
+layoutdir = "layouts"
+publishdir = "public"
+
+[params]
+    # Meta
+    title = "Our Recipes"
+    subtitle = "A collection of the recipes we make, gathered from all over."
+    author = "The Pogdens"
+    description = ""
+    keywords = "recipes"
+    
+    # Body background color
+    bodybgcolor = "#f9f9f9"
+    
+    # Preview container button text
+    buttontext = "Get the theme"
+    
+    # Footer text
+    footertext = ""
