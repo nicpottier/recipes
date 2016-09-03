@@ -1,6 +1,8 @@
 +++
 title = "Bibimbap"
 date = "2016-09-03"
+meals = ["dinner"]
+cuisines = ["korean"]
 +++
 
 From: http://mykoreankitchen.com/bibimbap-korean-mixed-rice-with-meat-and-assorted-vegetables/

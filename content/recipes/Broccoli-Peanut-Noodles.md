@@ -1,6 +1,8 @@
 +++
 title = "Peanut Broccoli Noodles"
 date = "2016-09-03"
+meals = ["dinner"]
+cuisines = ["thai"]
 +++
 
 Sauce inspired by: http://www.foodnetwork.com/recipes/melissa-darabian/sesame-and-peanut-noodles-recipe.html

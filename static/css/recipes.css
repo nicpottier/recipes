@@ -1,0 +1,77 @@
+body {
+  font-family: 'Dosis', sans-serif;
+  font-size: 18px;
+}
+
+.content {
+  margin: 20px;
+}
+
+.header {
+  background-color: #2D882D;
+  padding: 20px;
+  color: white;
+  font-family: 'Gochi Hand', cursive;
+  font-size: 35px;
+}
+
+ul.cuisine-recipes li a {
+  text-decoration: none;
+}
+
+ul.cuisine-recipes li {
+  list-style: none;
+}
+
+ul.categories {
+  width: 100%;
+  text-align: center;
+}
+
+ul.categories li {
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+  font-family: 'Gochi Hand', cursive;
+  color: white;
+  font-size: 35px;
+  text-align: right;
+  padding: 20px;
+  margin: 5px;
+}
+
+li.section-0, li.section-3, li.section-6 {
+  background-color: #AA3939;
+}
+
+li.section-1, li.section-4, li.section-7 {
+  background-color: #AA6C39;
+}
+
+li.section-2, li.section-5, li.section-8 {
+  background-color: #226666;
+}
+
+.color-primary-0 { color: #AA3939 }	/* Main Primary color */
+.color-primary-1 { color: #FFAAAA }
+.color-primary-2 { color: #D46A6A }
+.color-primary-3 { color: #801515 }
+.color-primary-4 { color: #550000 }
+
+.color-secondary-1-0 { color: #AA6C39 }	/* Main Secondary color (1) */
+.color-secondary-1-1 { color: #FFD1AA }
+.color-secondary-1-2 { color: #D49A6A }
+.color-secondary-1-3 { color: #804515 }
+.color-secondary-1-4 { color: #552700 }
+
+.color-secondary-2-0 { color: #226666 }	/* Main Secondary color (2) */
+.color-secondary-2-1 { color: #669999 }
+.color-secondary-2-2 { color: #407F7F }
+.color-secondary-2-3 { color: #0D4D4D }
+.color-secondary-2-4 { color: #003333 }
+
+.color-complement-0 { color: #2D882D }	/* Main Complement color */
+.color-complement-1 { color: #88CC88 }
+.color-complement-2 { color: #55AA55 }
+.color-complement-3 { color: #116611 }
+.color-complement-4 { color: #004400 }

@@ -1,0 +1,10 @@
+{{ partial "head" . }}
+<div class="header">
+  {{ .Title }}
+</div>
+<ul class="cuisine-recipes">
+  {{ range $index, .Paginator.Pages }}
+    <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
+  {{ end }}
+</ul>
+{{ partial "foot" . }}

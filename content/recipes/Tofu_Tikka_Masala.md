@@ -1,6 +1,8 @@
 +++
 title = "Tofu Tika Masala"
 date = "2016-09-03"
+meals = ["dinner"]
+cuisines = ["indian"]
 +++
 
 From: http://www.foodpleasureandhealth.com/2014/09/tofu-tikka-masala.html

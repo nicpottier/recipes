@@ -12,6 +12,10 @@ datadir = "data"
 layoutdir = "layouts"
 publishdir = "public"
 
+[taxonomies]
+meal = "meals"
+cuisine = "cuisines"
+
 [params]
     # Meta
     title = "Our Recipes"
@@ -19,12 +23,12 @@ publishdir = "public"
     author = "The Pogdens"
     description = ""
     keywords = "recipes"
-    
+
     # Body background color
     bodybgcolor = "#f9f9f9"
-    
+
     # Preview container button text
     buttontext = "Get the theme"
-    
+
     # Footer text
     footertext = ""

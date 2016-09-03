@@ -1,6 +1,8 @@
 +++
 title = "Thai Red Curry"
 date = "2016-09-03"
+meals = ["dinner"]
+cuisines = ["thai"]
 +++
 
 From: http://cookieandkate.com/2015/thai-red-curry-recipe/

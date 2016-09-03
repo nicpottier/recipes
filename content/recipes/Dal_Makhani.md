@@ -1,6 +1,8 @@
 +++
 title = "Dal Makhani"
 date = "2016-09-03"
+meals = ["dinner"]
+cuisines = ["indian"]
 +++
 
 Adapted from: http://www.oneingredientchef.com/dal-makhani/
