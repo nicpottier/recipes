@@ -3,6 +3,22 @@ body {
   font-size: 18px;
 }
 
+.recipe {
+  margin: 20px;
+}
+
+.recipe h2 {
+  font-size: 36px;
+  font-family: 'Gochi Hand', cursive;
+  margin-bottom: 5px;
+  padding-bottom: 0px;
+  border-bottom: 1px solid #666;
+}
+
+.recipe ul {
+  margin-top: 5px;
+}
+
 .content {
   margin: 20px;
 }
