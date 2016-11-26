@@ -23,12 +23,12 @@ Add mushrooms and thime, cook down until liquids cook out. Cut cream cheese into
 until thick. Season with salt and pepper to taste.
 
 # Crust
-2 1/2 cups unbleached white flour
-2 teaspoons baking powder
-1/4 teaspoon salt
-1 cup butter
-1 cup sour cream
-flour for coating the dough and board for rolling
+* 2 1/2 cups unbleached white flour
+* 2 teaspoons baking powder
+* 1/4 teaspoon salt
+* 1 cup butter
+* 1 cup sour cream
+* flour for coating the dough and board for rolling
 
 For the crust, combine the flour, baking powder and salt in a large mixing bowl. Cut in the butter just enough to achieve an evenly textured crumbly mix. Stir in the sour cream to form a soft dough. Generously dust the dough with flour and form it into a ball.
 On a heavily floured board, roll out 2/3 of the dough to fit a 10-inch pie plate. Trim the edges. Fill with the mushroom mixture. Roll out the remaining dough about 1/4 inch thick (thicker than a usual pie crust) and cut into strips. Weave the strips into a lattice over the filling. Fold the ends of the lattice strips under the bottom crust, pinch the edges together, and flute.
