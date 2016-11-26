@@ -2,7 +2,7 @@
 title = "Mushroom Pie"
 date = "2016-10-27"
 meals = ["dinner"]
-cuisines = ["americana"]
+cuisines = ["american"]
 +++
 
 From: https://greatlakesgazette.wordpress.com/2012/10/25/recipe-file-mushroom-pie/
