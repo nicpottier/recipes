@@ -5,7 +5,7 @@ meals = ["dinner"]
 cuisines = ["north african"]
 +++
 
-From: https://cooking.nytimes.com/recipes/1017949-spicy-peanut-stew-with-ginger-and-tomato?utm_source=sharetools&utm_medium=email&utm_campaign=website
+From: https://cooking.nytimes.com/recipes/1017949-spicy-peanut-stew-with-ginger-and-tomato
 
 # Ingredients
 
