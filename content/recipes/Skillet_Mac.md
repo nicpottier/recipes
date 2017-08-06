@@ -2,7 +2,7 @@
 title = "Skillet Mac n Cheese"
 date = "2017-08-06"
 meals = ["dinner"]
-cuisines = ["americana"]
+cuisines = ["american"]
 +++
 
 From: https://cooking.nytimes.com/recipes/1015109-skillet-macaroni-and-broccoli-and-mushrooms-and-cheese
