@@ -4,7 +4,9 @@
 		<ul class="categories">
 			{{ $.Scratch.Set "idx" 0 }}
 			{{ range $name, $taxonomy := .Site.Taxonomies.cuisines }}
-		  <a href="/cuisines/{{ $name | urlize }}"><li class="section-{{ $.Scratch.Get "idx"}}">{{ title $name }}</li></a>
+		  <a href="/cuisines/{{ $name | urlize }}">
+				<li class="section-{{ $.Scratch.Get "idx"}}">{{ title $name }}</li>
+			</a>
 			{{ $.Scratch.Add "idx" 1 }}
 		  {{ end }}
 		</ul>

@@ -3,7 +3,7 @@
   {{ .Title }}
 </div>
 <ul class="cuisine-recipes">
-  {{ range $index, .Paginator.Pages }}
+  {{ range .Paginator.Pages }}
     <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
   {{ end }}
 </ul>

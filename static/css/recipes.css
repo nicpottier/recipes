@@ -44,16 +44,20 @@ ul.categories {
   text-align: center;
 }
 
+ul.categories a {
+  text-decoration: none;
+}
+
 ul.categories li {
-  display: inline-block;
-  width: 200px;
-  height: 200px;
+  display: block;
+  width: 80%;
+  height: 50px;
   font-family: 'Gochi Hand', cursive;
   color: white;
-  font-size: 35px;
-  text-align: right;
-  padding: 20px;
-  margin: 5px;
+  font-size: 30px;
+  text-align: left;
+  padding: 10px;
+  margin-bottom: 5px;
 }
 
 li.section-0, li.section-3, li.section-6 {
