@@ -1,5 +1,5 @@
 +++
-title = "Spiny Peanut Stew"
+title = "Spicy Peanut Stew"
 date = "2017-02-19"
 meals = ["dinner"]
 cuisines = ["north african"]
