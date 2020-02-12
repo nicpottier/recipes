@@ -1,8 +1,7 @@
 +++
 title = "Danger Cookies"
 date = "2020-02-11"
-meals = ["dessert"]
-cuisines = ["american"]
+cuisines = ["baking"]
 +++
 
 Danger Cookies
