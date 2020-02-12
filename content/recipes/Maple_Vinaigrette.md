@@ -1,4 +1,9 @@
-+++ title = "Maple Vinaigrette" date = "2020-02-11" meals = ["dinner"] cuisines = ["american"] +++
++++ 
+title = "Maple Vinaigrette" 
+date = "2020-02-11" 
+meals = ["dinner"] 
+cuisines = ["american"] 
++++
 
 Combine
 
