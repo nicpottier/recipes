@@ -8,6 +8,7 @@ cuisines = ["italian"]
 Cut butternut squash into 1/2 -3/4 inch cubes or thin strips. Toss in olive oil, salt, and pepper. Bake on 375 F for 40 minutes, flipping every 10-15 min. 
 
 To make the pesto: 
+
 * 2 cups fresh basil (or you can use kale, or arugula)
 * 1/4 cup (ish) roasted walnuts
 * 1/4 cup (ish) olive oil (or olive oil until it's the consistency you want
