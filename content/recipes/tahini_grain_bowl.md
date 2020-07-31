@@ -7,7 +7,7 @@ cuisines = ["american"]
 
 Prepare your favorite grain: brown rice, barley, quinoa, etc.
 
-* You can use any greens or roasted veggies in this dish. I like the combos of butternut squash and chard/kale, or broccoli and chard. But it works equally well with roasted brussel sprouts, sweet potatoes, etc.
+You can use any greens or roasted veggies in this dish. I like the combos of butternut squash and chard/kale, or broccoli and chard. But it works equally well with roasted brussel sprouts, sweet potatoes, etc.
 
 Cut butternut squash into ½” – ¾ inch squares. Toss with olive oil and salt and roast at 375 F, flipping every 10-15 min.
 
