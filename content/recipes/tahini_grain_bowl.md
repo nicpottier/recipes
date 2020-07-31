@@ -14,6 +14,7 @@ Cut butternut squash into ½” – ¾ inch squares. Toss with olive oil and sal
 At the same time, roast/pan fry brussel sprouts, broccoli, or broccolini, or sauté kale/chard/mustard greens.
 
 Prepare Garlic-Tahini Sauce:
+
 * 1 garlic clove
 * ⅓ cup sesame tahini
 * 2 to 4 tablespoons fresh lemon juice (more to taste)
@@ -21,6 +22,7 @@ Prepare Garlic-Tahini Sauce:
 * Salt to taste
 
 Two options to prepare:
+
 1. Use a mortar and pestle to mash garlic. Add tahini, lemon juice, mashed garlic, and salt in a bowl and whisk. Dilute with water until a thick but runny consistency.
 2. Add ingredients to a Nutri-bullet/small blender and blend until thick but runny.
 
