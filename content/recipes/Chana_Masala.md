@@ -26,7 +26,7 @@ From: https://www.splendidtable.org/story/2019/03/22/chana-masala-for-instant-po
 * 2 teaspoons (10 mL) freshly squeezed lemon juice (optional)
 * 1 cup (250 mL) ﬁnely chopped fresh cilantro
 
-# Preparation
+## Preparation
 
 Using the Sauté function on High, heat 2 tablespoons (30 mL) oil in the inner pot for 1 minute, until shimmering. 
 Add the onions; cook, stirring occasionally, for about 10 minutes, occasionally adding 1 tablespoon (15 mL) water if 
