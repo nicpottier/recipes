@@ -31,6 +31,7 @@ Soak lentils in beans in boiling water for at least 4 hours. Add 3 cups water an
 - 3 tbsp butter
 - chopped cilantro for garnish
 
+# Preparation
 * cook lentils until soft. Blend 1 cup in blender into paste, set aside
 * In a pan, now heat butter. You can use salted butter or unsalted butter.
 * Add the whole spices – cumin seeds, cloves, green cardamoms, black cardamom, 1 inch cinnamon, 1 small to medium tej patta.
