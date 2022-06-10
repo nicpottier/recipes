@@ -2,7 +2,7 @@
 title = "Garbanzo Salad"
 date = "2022-06-10"
 meals = ["dinner"]
-cuisines = ["salads"]
+cuisines = ["american"]
 +++
 
 
