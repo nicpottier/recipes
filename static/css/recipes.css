@@ -95,3 +95,20 @@ li.section-2, li.section-5, li.section-8 {
 .color-complement-2 { color: #55AA55 }
 .color-complement-3 { color: #116611 }
 .color-complement-4 { color: #004400 }
+
+.breadcrumbs {
+  background-color: #88CC88;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-family: 'Gochi Hand', cursive;
+  border-bottom: 1px solid #55AA55;
+}
+
+.breadcrumbs a {
+  text-decoration: none;
+  color: #004400;
+}
+
+.breadcrumbs a:hover {
+  text-decoration: underline;
+}
