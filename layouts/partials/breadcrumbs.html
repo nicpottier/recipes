@@ -1,6 +1,6 @@
 <div class="breadcrumbs">
   <a href="/">All Recipes</a>
-  {{ if eq .Type "cuisine" }}
+  {{ if eq .Type "cuisines" }}
     &gt; <span>{{ title .Title }}</span>
   {{ else if eq .Type "recipes" }}
     {{ if isset .Params "cuisines" }}
