@@ -1,0 +1,12 @@
+{
+    "editor.formatOnSave": true,
+    "editor.tabSize": 2,
+    "files.associations": {
+        "*.md": "markdown"
+    },
+    "markdown.extension.toc.levels": "2..6",
+    "recommendations": [
+        "budparr.language-hugo-vscode",
+        "yzhang.markdown-all-in-one"
+    ]
+}

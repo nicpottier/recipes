@@ -84,6 +84,15 @@ Source information or notes
 - `hugo server -D` - Start development server and include draft posts
 - `hugo new content/recipes/Recipe_Name.md` - Create a new recipe (alternative to helper script)
 
+## VS Code Integration
+
+The repository is configured with VS Code settings for optimal development:
+
+- `.vscode/settings.json` - Editor settings for consistent formatting
+- `.vscode/extensions.json` - Recommended extensions for Hugo and Markdown development
+
+These settings help ensure consistent code style and provide helpful tools for working with Hugo and Markdown files.
+
 ## Working with Docker
 
 - `docker-compose up` - Start the Hugo server in a container

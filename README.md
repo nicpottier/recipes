@@ -83,6 +83,17 @@ Source: http://example.com/recipe-source
 3. Step 3
 ```
 
+## Development Tools
+
+### VS Code Integration
+
+This repository includes VS Code settings and extension recommendations to enhance your development experience:
+
+- `.vscode/settings.json`: Provides consistent editor settings
+- `.vscode/extensions.json`: Recommends useful extensions for working with Hugo and Markdown
+
+When you open the project in VS Code, you'll be prompted to install the recommended extensions.
+
 ## Repository Structure
 
 - `content/recipes/`: Contains all the recipe Markdown files
