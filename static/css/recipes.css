@@ -52,10 +52,14 @@ ul.cuisine-recipes li {
 ul.categories {
   width: 100%;
   text-align: center;
+  padding-left: 0 !important;
+  margin-left: 0 !important;
 }
 
 ul.categories a {
   text-decoration: none;
+  display: block;
+  width: 100%;
 }
 
 ul.categories li {
