@@ -1,9 +1,7 @@
 <div class="breadcrumbs">
   <a href="/">All Recipes</a>
   {{ if eq .Type "cuisines" }}
-    {{ if not .IsNode }}
-      &gt; <span>{{ title .Title }}</span>
-    {{ end }}
+    &gt; <span>{{ title .Title }}</span>
   {{ else if eq .Type "recipes" }}
     {{ if isset .Params "cuisines" }}
       {{ range first 1 .Params.cuisines }}
