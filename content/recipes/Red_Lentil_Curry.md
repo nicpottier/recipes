@@ -8,43 +8,33 @@ cuisines = ["indian"]
 From: https://makeitdairyfree.com/easy-masoor-dal-spiced-red-lentils/
 
 # Ingredients
-* 1 cup red lentils (masoor dal), rinsed and drained
-* 2 tbsp olive oil
-* 1 medium yellow onion, finely diced
-* 4 cloves garlic, minced
-* 1 inch fresh ginger, minced
-* 1 medium tomato, diced
-* 1 tbsp tomato paste
-* 1 tsp ground turmeric
-* 1 tsp ground cumin
-* 1 tsp ground coriander
-* 1 tsp garam masala
-* 1/2 tsp red chili powder (adjust to taste)
-* 1 tsp salt (adjust to taste)
-* 2 1/2 cups water or vegetable broth
-* 1/2 cup coconut milk
-* 1 tbsp lemon juice
-* 1/4 cup fresh cilantro, chopped (for garnish)
+* 1 tablespoon olive oil
+* 1 large yellow onion, diced
+* 6-8 cloves garlic, minced
+* 1 tablespoon fresh ginger, peeled and grated
+* 1 tablespoon garam masala
+* 1 teaspoon ground turmeric
+* 1 teaspoon coriander
+* 1 teaspoon cumin
+* 1 teaspoon smoked paprika
+* 1/2 teaspoon cinnamon
+* 1 1/2 cups dried red lentils, rinsed and soaked (can sub with orange)
+* 14 oz canned diced tomatoes
+* 8 oz full fat coconut milk
+* 3 cups vegetable broth
+* 1/2 teaspoon salt, more or less to taste
+* 1 half a lemon, juiced
+* 1 green chili, thinly sliced (optional)
+* 1 tablespoon kasuri methi (optional)
+* homemade vegan naan, as a side (optional)
 
 # Preparation
-1. Rinse the red lentils thoroughly until the water runs clear. Set aside.
+1. In a large heavy bottomed pot, add oil over medium heat. Once hot, add in onions and let cooked for 8-20 minutes. Add in garlic and ginger and stir together. Let cook until fragrant (another 1-2 minutes).
 
-2. In a large pot or deep skillet over medium heat, add oil. Once hot, add the diced onion and cook until softened and translucent, about 4-5 minutes.
+2. Add in all the seasonings (garam masala – cinnamon) and stir together again. Allow to cook for 1 minute, stirring often, careful not to burn.
 
-3. Add the minced garlic and ginger, and sauté for another 1-2 minutes until fragrant.
+3. Add in lentils and stir. Then, add the tomatoes, coconut milk and vegetable stock. Scrap the bottom of the pot to remove any of the fond. Turn heat down to medium and let cook until thickened and lentils are soft (about 15-20 minutes).
 
-4. Add the diced tomato and cook for 2-3 minutes until it starts to break down.
+4. Taste your dal and then add in salt, kasuri methi, and lemon juice as desired. Stir together and remove from heat. Top with sliced green chilis at the end if desired. 
 
-5. Stir in the tomato paste and all the spices (turmeric, cumin, coriander, garam masala, chili powder, and salt). Cook for 1 minute to toast the spices.
-
-6. Add the rinsed red lentils and water or vegetable broth. Bring to a boil, then reduce heat to low, cover, and simmer for 15-20 minutes, or until the lentils are soft and beginning to break down.
-
-7. Stir occasionally to prevent sticking and add more water if needed if the curry becomes too thick.
-
-8. Once the lentils are cooked, stir in the coconut milk and lemon juice. Simmer for an additional 5 minutes to allow flavors to meld.
-
-9. Taste and adjust seasoning if necessary.
-
-10. Remove from heat and garnish with fresh chopped cilantro.
-
-Serve hot with basmati rice, naan bread, or quinoa. Enjoy!
+Serve with naan.
