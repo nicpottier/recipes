@@ -4,13 +4,3 @@
 
 [build.environment]
   HUGO_VERSION = "0.147.5"
-
-[context.production.environment]
-  HUGO_ENV = "production"
-  HUGO_ENABLEGITINFO = "true"
-
-[context.deploy-preview]
-  command = "hugo -b $DEPLOY_PRIME_URL"
-
-[context.branch-deploy]
-  command = "hugo -b $DEPLOY_PRIME_URL"
