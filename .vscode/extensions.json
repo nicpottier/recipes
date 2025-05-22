@@ -1,0 +1,7 @@
+{
+    "recommendations": [
+        "budparr.language-hugo-vscode",
+        "yzhang.markdown-all-in-one",
+        "davidanson.vscode-markdownlint"
+    ]
+}
