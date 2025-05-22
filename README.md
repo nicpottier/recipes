@@ -52,6 +52,8 @@ If you prefer using Docker, we've included Docker configuration files to make se
 
 3. Visit `http://localhost:1313` in your browser to view the site.
 
+This Docker setup uses Alpine Linux with Hugo ${HUGO_VERSION} installed, providing a lightweight and efficient development environment.
+
 ## Adding a Recipe
 
 Recipes are stored in the `content/recipes/` directory as Markdown files.

@@ -90,6 +90,8 @@ Source information or notes
 - `docker-compose down` - Stop the container
 - `docker-compose build --no-cache` - Rebuild the container (if Dockerfile changes)
 
+This Docker setup uses Alpine Linux with Hugo installed, providing a lightweight and efficient development environment.
+
 ---
 
 When you're done, you can view the site at `http://localhost:1313` when the server is running.

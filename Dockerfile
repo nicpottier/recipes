@@ -1,14 +1,14 @@
-FROM debian:bullseye-slim
+FROM alpine:3.18
 
 # Set environment variables
 ENV HUGO_VERSION=0.147.5 \
-    HUGO_BINARY=hugo_${HUGO_VERSION}_Linux-64bit.tar.gz
+    HUGO_BINARY=hugo_${HUGO_VERSION}_Linux-amd64.tar.gz
 
 # Install necessary packages
-RUN apt-get update && apt-get install -y \
+RUN apk add --no-cache \
     wget \
     git \
-    && rm -rf /var/lib/apt/lists/*
+    ca-certificates
 
 # Download and install Hugo
 RUN wget -q https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/${HUGO_BINARY} && \
@@ -17,7 +17,7 @@ RUN wget -q https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/
     rm ${HUGO_BINARY}
 
 # Set working directory
-WORKDIR /app
+WORKDIR /src
 
 # Expose port for Hugo server
 EXPOSE 1313
