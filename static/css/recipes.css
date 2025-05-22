@@ -50,13 +50,16 @@ ul.categories a {
 
 ul.categories li {
   display: block;
-  width: 80%;
-  height: 50px;
+  width: 100%;
+  height: auto;
   font-family: 'Gochi Hand', cursive;
   color: white;
   font-size: 30px;
-  text-align: left;
-  padding: 10px;
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 0;
+  padding-right: 0;
   margin-bottom: 5px;
 }
 
