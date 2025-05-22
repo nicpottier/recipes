@@ -19,13 +19,14 @@ body {
   margin-top: 5px;
 }
 
-.container {
-  padding: 0;
+.container, .main_wrapper > .container {
+  padding: 0 !important;
+  margin: 0 auto !important;
 }
 
 .main {
-  padding: 0;
-  margin: 0;
+  padding: 0 !important;
+  margin: 0 !important;
 }
 
 .content {
@@ -58,14 +59,16 @@ ul.categories a {
 }
 
 ul.categories li {
-  display: block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 100%;
   height: 50px;
   font-family: 'Gochi Hand', cursive;
   color: white;
   font-size: 30px;
   text-align: center;
-  padding: 15px 0;
+  padding: 0;
   margin-bottom: 5px;
 }
 
