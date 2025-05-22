@@ -1,0 +1,15 @@
+<div class="breadcrumbs">
+  <a href="/">All Recipes</a>
+  {{ if eq .Type "cuisines" }}
+    {{ if not .IsNode }}
+      &gt; <span>{{ title .Title }}</span>
+    {{ end }}
+  {{ else if eq .Type "recipes" }}
+    {{ if isset .Params "cuisines" }}
+      {{ range first 1 .Params.cuisines }}
+        &gt; <a href="/cuisines/{{ . | urlize }}">{{ title . }}</a>
+      {{ end }}
+    {{ end }}
+    &gt; <span>{{ .Title }}</span>
+  {{ end }}
+</div>
