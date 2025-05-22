@@ -36,12 +36,6 @@ hugo server -D
 
 ### 3. Creating a New Recipe
 
-Using the helper script:
-```bash
-./new-recipe.sh "Recipe Name"
-```
-
-Manual method:
 ```bash
 # Create a new Markdown file in the content/recipes directory
 # Use the correct frontmatter format (see existing recipes for reference)
@@ -82,7 +76,7 @@ Source information or notes
 - `hugo` - Build the site (outputs to `public/` directory)
 - `hugo server` - Start development server
 - `hugo server -D` - Start development server and include draft posts
-- `hugo new content/recipes/Recipe_Name.md` - Create a new recipe (alternative to helper script)
+- `hugo new content/recipes/Recipe_Name.md` - Create a new recipe
 
 ## VS Code Integration
 
