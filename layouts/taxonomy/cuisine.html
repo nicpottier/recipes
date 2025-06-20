@@ -4,7 +4,7 @@
   {{ .Title }}
 </div>
 <ul class="cuisine-recipes">
-  {{ range .Paginator.Pages }}
+  {{ range .Pages }}
     <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
   {{ end }}
 </ul>
