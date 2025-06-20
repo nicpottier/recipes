@@ -76,15 +76,15 @@ ul.categories li {
   margin-bottom: 5px;
 }
 
-li.section-0, li.section-3, li.section-6 {
+ul.categories li:nth-child(3n+1) {
   background-color: #AA3939;
 }
 
-li.section-1, li.section-4, li.section-7 {
+ul.categories li:nth-child(3n+2) {
   background-color: #AA6C39;
 }
 
-li.section-2, li.section-5, li.section-8 {
+ul.categories li:nth-child(3n+3) {
   background-color: #226666;
 }
 
