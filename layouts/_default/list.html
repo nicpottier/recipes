@@ -1,0 +1,15 @@
+{{ define "main" }}
+<section class="hero hero-small">
+  <div class="wrap">
+    <h1>{{ .Title }}</h1>
+    <p class="hero-sub">{{ len .Pages }} recipes</p>
+  </div>
+</section>
+<div class="wrap section">
+  <div class="grid">
+    {{- range .Pages.ByTitle }}
+    {{ partial "card.html" . }}
+    {{- end }}
+  </div>
+</div>
+{{ end }}

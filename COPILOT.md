@@ -8,9 +8,10 @@ This is a recipe collection website built with Hugo, a static site generator. Th
 
 - `content/recipes/` - Contains all recipe markdown files
 - `config.toml` - Main Hugo configuration file
-- `themes/hyde-y/` - The Hugo theme files
+- `layouts/` - All page templates (the site no longer uses a theme)
+- `assets/css/site.css` - Site stylesheet
+- `data/tags.toml` - Emoji and color for each cuisine and meal
 - `static/` - Static assets
-- `layouts/` - Custom layout templates (if any)
 
 ## Common Tasks
 

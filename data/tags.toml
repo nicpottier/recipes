@@ -1,0 +1,61 @@
+# Emoji and color hue for each cuisine and meal tag.
+# Tags not listed here fall back to the "default" entry.
+[default]
+emoji = "🍽️"
+hue = 30
+
+[american]
+emoji = "🥘"
+hue = 18
+
+[asian]
+emoji = "🥢"
+hue = 350
+
+[baking]
+emoji = "🥐"
+hue = 38
+
+[desserts]
+emoji = "🍫"
+hue = 320
+
+[indian]
+emoji = "🍛"
+hue = 45
+
+[italian]
+emoji = "🍝"
+hue = 5
+
+[korean]
+emoji = "🍚"
+hue = 200
+
+[mexican]
+emoji = "🌮"
+hue = 140
+
+["north african"]
+emoji = "🧆"
+hue = 60
+
+[russian]
+emoji = "🥟"
+hue = 225
+
+[thai]
+emoji = "🍜"
+hue = 95
+
+[breakfast]
+emoji = "🍳"
+hue = 48
+
+[lunch]
+emoji = "🥪"
+hue = 120
+
+[dinner]
+emoji = "🍽️"
+hue = 15

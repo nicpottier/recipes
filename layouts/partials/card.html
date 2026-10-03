@@ -1,0 +1,13 @@
+{{- $cuisine := "" -}}
+{{- with .Params.cuisines }}{{ $cuisine = index . 0 }}{{ end -}}
+{{- $tag := partial "tag.html" $cuisine -}}
+<a class="card" href="{{ .RelPermalink }}" style="--h:{{ $tag.hue }}" data-c="{{ delimit (.Params.cuisines | default slice) "|" | lower }}" data-s="{{ partial "search-text.html" . }}">
+  <span class="card-art" aria-hidden="true">{{ $tag.emoji }}</span>
+  <span class="card-body">
+    {{ with $cuisine }}<span class="card-kicker">{{ title . }}</span>{{ end }}
+    <span class="card-title">{{ .Title }}</span>
+    {{- /* Nearly everything is dinner, so only call out the other meals. */}}
+    {{ with complement (slice "dinner") (.Params.meals | default slice) }}<span class="card-meta">{{ delimit (apply . "title" ".") ", " }}</span>{{ end }}
+  </span>
+</a>
+{{- /**/ -}}

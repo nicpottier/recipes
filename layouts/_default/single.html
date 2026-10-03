@@ -1,0 +1,123 @@
+{{ define "main" }}
+{{- $cuisine := "" }}
+{{- with .Params.cuisines }}{{ $cuisine = index . 0 }}{{ end }}
+{{- $tag := partial "tag.html" $cuisine }}
+<article class="recipe" style="--h:{{ $tag.hue }}">
+  <header class="recipe-hero">
+    <div class="wrap narrow">
+      <span class="recipe-emoji" aria-hidden="true">{{ $tag.emoji }}</span>
+      <div class="tags">
+        {{- range .Params.cuisines }}
+        <a class="tag" href="{{ (printf "cuisines/%s/" (urlize .)) | relURL }}">{{ title . }}</a>
+        {{- end }}
+        {{- range .Params.meals }}
+        <a class="tag tag-quiet" href="{{ (printf "meals/%s/" (urlize .)) | relURL }}">{{ title . }}</a>
+        {{- end }}
+      </div>
+      <h1>{{ .Title }}</h1>
+    </div>
+  </header>
+
+  <div class="wrap narrow">
+    <div class="cook-bar" id="cookbar" hidden>
+      <p class="cook-hint">Tap ingredients and steps to check them off.</p>
+      <div class="cook-actions">
+        <button class="btn btn-small" type="button" id="wake" hidden aria-pressed="false"><span aria-hidden="true">☀️</span> Keep screen on</button>
+        <button class="btn btn-small btn-quiet" type="button" id="reset" hidden>Clear checks</button>
+      </div>
+    </div>
+
+    <div class="prose" id="recipe">
+      {{ .Content }}
+    </div>
+  </div>
+</article>
+
+{{- $related := slice }}
+{{- with $cuisine }}
+{{- $related = where (where site.RegularPages "Params.cuisines" "intersect" (slice .)) "Permalink" "ne" $.Permalink }}
+{{- end }}
+{{- with $related }}
+<aside class="wrap section more">
+  <h2 class="section-title">More {{ title $cuisine }} recipes</h2>
+  <div class="grid">
+    {{- range first 3 (shuffle .) }}
+    {{ partial "card.html" . }}
+    {{- end }}
+  </div>
+</aside>
+{{- end }}
+{{ end }}
+
+{{ define "scripts" }}
+<script>
+(() => {
+  const items = [...document.querySelectorAll('#recipe li')];
+  if (!items.length) return;
+  const key = 'checked:' + location.pathname;
+  const reset = document.getElementById('reset');
+  let done = new Set();
+  try { done = new Set(JSON.parse(localStorage.getItem(key) || '[]')); } catch (e) {}
+
+  const save = () => {
+    try { done.size ? localStorage.setItem(key, JSON.stringify([...done])) : localStorage.removeItem(key); } catch (e) {}
+    reset.hidden = done.size === 0;
+  };
+  const set = (li, i, on) => {
+    li.classList.toggle('done', on);
+    li.setAttribute('aria-checked', String(on));
+    on ? done.add(i) : done.delete(i);
+  };
+
+  items.forEach((li, i) => {
+    li.setAttribute('role', 'checkbox');
+    li.tabIndex = 0;
+    set(li, i, done.has(i));
+    const toggle = e => {
+      if (e.target.closest('a') || e.target.closest('li') !== li) return;
+      set(li, i, !li.classList.contains('done'));
+      save();
+    };
+    li.addEventListener('click', toggle);
+    li.addEventListener('keydown', e => {
+      if (e.key === ' ' || e.key === 'Enter') { e.preventDefault(); toggle(e); }
+    });
+  });
+
+  reset.addEventListener('click', () => {
+    items.forEach((li, i) => set(li, i, false));
+    save();
+  });
+  document.getElementById('cookbar').hidden = false;
+  save();
+
+  if ('wakeLock' in navigator) {
+    // The browser drops the lock whenever the page is hidden, so remember
+    // that the cook wants it and take it again when they come back.
+    const wake = document.getElementById('wake');
+    let wanted = false;
+    let lock = null;
+    const render = () => wake.setAttribute('aria-pressed', String(wanted));
+    const acquire = async () => {
+      try {
+        lock = await navigator.wakeLock.request('screen');
+        lock.addEventListener('release', () => { lock = null; });
+      } catch (e) {
+        wanted = false;
+        render();
+      }
+    };
+    wake.hidden = false;
+    wake.addEventListener('click', () => {
+      wanted = !wanted;
+      render();
+      if (wanted) acquire();
+      else if (lock) lock.release();
+    });
+    document.addEventListener('visibilitychange', () => {
+      if (document.visibilityState === 'visible' && wanted && !lock) acquire();
+    });
+  }
+})();
+</script>
+{{ end }}

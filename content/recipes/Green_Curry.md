@@ -19,9 +19,9 @@ services 1-2
 * 1/2 tbsp fish sauce
 * 1 tbsp tamarind paste
 
-Put oil in wok over low heat.
-Add curry paste and stir constantly until fragrant.
-Add tofu fry until cooked
-Add coconut milk, kaffir lime leaves, ginger, eggplant, sugar tamarind paste and fish sauce.
-Stir constantly until reduced and sauce is thick.
-Add sweet basil, serve over rice.
+1. Put oil in wok over low heat.
+2. Add curry paste and stir constantly until fragrant.
+3. Add tofu fry until cooked
+4. Add coconut milk, kaffir lime leaves, ginger, eggplant, sugar tamarind paste and fish sauce.
+5. Stir constantly until reduced and sauce is thick.
+6. Add sweet basil, serve over rice.

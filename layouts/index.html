@@ -1,14 +1,94 @@
-{{ partial "head" . }}
-<div class="container">
-	<div class="main">
-		<ul class="categories">
-			{{ $.Scratch.Set "idx" 0 }}
-			{{ range $name, $taxonomy := .Site.Taxonomies.cuisines }}
-		  <a href="/cuisines/{{ $name | urlize }}">
-				<li class="section-{{ $.Scratch.Get "idx"}}">{{ title $name }}</li>
-			</a>
-			{{ $.Scratch.Add "idx" 1 }}
-		  {{ end }}
-		</ul>
-	</div>
-{{ partial "foot" . }}
+{{ define "main" }}
+{{- $recipes := (where site.RegularPages "Section" "recipes").ByTitle }}
+<section class="hero">
+  <div class="wrap">
+    <h1>{{ site.Params.title }}</h1>
+    <p class="hero-sub">{{ site.Params.subtitle }}</p>
+    <div class="finder" role="search">
+      <label class="search">
+        <span class="visually-hidden">Search recipes</span>
+        <svg aria-hidden="true" viewBox="0 0 24 24" width="20" height="20"><circle cx="11" cy="11" r="7" fill="none" stroke="currentColor" stroke-width="2"/><path d="m20 20-4-4" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+        <input id="q" type="search" placeholder="Search by name or ingredient" autocomplete="off" enterkeyhint="search">
+      </label>
+      <button id="surprise" class="btn" type="button" hidden><span aria-hidden="true">🎲</span> Surprise me</button>
+    </div>
+  </div>
+</section>
+
+<div class="wrap">
+  <nav class="chips" aria-label="Cuisines">
+    <a class="chip" href="{{ "/" | relURL }}" data-c="" aria-current="true">All <span class="chip-n">{{ len $recipes }}</span></a>
+    {{- range $name, $pages := site.Taxonomies.cuisines }}
+    {{- $tag := partial "tag.html" $name }}
+    <a class="chip" href="{{ $pages.Page.RelPermalink }}" data-c="{{ $name }}" style="--h:{{ $tag.hue }}"><span aria-hidden="true">{{ $tag.emoji }}</span> {{ title $name }} <span class="chip-n">{{ $pages.Count }}</span></a>
+    {{- end }}
+  </nav>
+
+  <section id="recent" class="section">
+    <h2 class="section-title">Recently added</h2>
+    <div class="grid">
+      {{- range first 3 (where site.RegularPages "Section" "recipes").ByDate.Reverse }}
+      {{ partial "card.html" . }}
+      {{- end }}
+    </div>
+  </section>
+
+  <section id="all" class="section">
+    <h2 class="section-title">All recipes <span class="section-count" id="count">{{ len $recipes }}</span></h2>
+    <div class="grid">
+      {{- range $recipes }}
+      {{ partial "card.html" . }}
+      {{- end }}
+    </div>
+    <p id="empty" class="empty" hidden>No recipes match that. Try another ingredient?</p>
+  </section>
+</div>
+{{ end }}
+
+{{ define "scripts" }}
+<script>
+(() => {
+  const q = document.getElementById('q');
+  const chips = [...document.querySelectorAll('.chip')];
+  const cards = [...document.querySelectorAll('#all .card')];
+  const recent = document.getElementById('recent');
+  const count = document.getElementById('count');
+  const empty = document.getElementById('empty');
+  const surprise = document.getElementById('surprise');
+  let cuisine = '';
+
+  const apply = () => {
+    const terms = q.value.toLowerCase().split(/\s+/).filter(Boolean);
+    let shown = 0;
+    for (const card of cards) {
+      const ok = (!cuisine || card.dataset.c.split('|').includes(cuisine)) &&
+        terms.every(t => card.dataset.s.includes(t));
+      card.hidden = !ok;
+      if (ok) shown++;
+    }
+    count.textContent = shown;
+    empty.hidden = shown > 0;
+    recent.hidden = Boolean(cuisine || terms.length);
+  };
+
+  for (const chip of chips) {
+    chip.setAttribute('role', 'button');
+    chip.addEventListener('click', e => {
+      e.preventDefault();
+      cuisine = chip.dataset.c;
+      for (const c of chips) c.setAttribute('aria-current', String(c === chip));
+      apply();
+    });
+  }
+  q.addEventListener('input', apply);
+
+  surprise.hidden = false;
+  surprise.addEventListener('click', () => {
+    const visible = cards.filter(c => !c.hidden);
+    if (visible.length) location.href = visible[Math.floor(Math.random() * visible.length)].href;
+  });
+
+  if (q.value) apply();
+})();
+</script>
+{{ end }}

@@ -1,0 +1,8 @@
+{{/* Lowercased text the home page search matches against: title, tags, and
+     short list items (ingredients; long numbered steps are skipped). */}}
+{{ $items := findRE `(?m)^[ \t]*(?:[*-]|\d+\.)[ \t]+.{1,80}$` .RawContent }}
+{{ $items = replaceRE `(?m)^[ \t]*(?:[*-]|\d+\.)[ \t]+` "" (delimit $items "\n") }}
+{{ $items = replaceRE `\s+` " " $items }}
+{{ $items = replaceRE `\]\([^)]*\)` "" $items }}
+{{ $tags := delimit ((.Params.cuisines | default slice) | append (.Params.meals | default slice)) " " }}
+{{ return lower (printf "%s %s %s" .Title $tags ($items | plainify)) }}
