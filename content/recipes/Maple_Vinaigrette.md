@@ -5,10 +5,12 @@ meals = ["dinner"]
 cuisines = ["american"] 
 +++
 
-Combine
-
+# Ingredients
 * 2 tbsp maple syrup
-* 1 tbsp Dijon mustard 
-* 2 tbsp apple cider vinegar 
-* 1/3 cup extra-virgin olive oil 
+* 1 tbsp Dijon mustard
+* 2 tbsp apple cider vinegar
+* 1/3 cup extra-virgin olive oil
 * Salt and freshly cracked black pepper
+
+# Instructions
+1. Combine

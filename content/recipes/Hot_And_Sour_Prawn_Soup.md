@@ -7,7 +7,7 @@ cuisines = ["thai"]
 
 Services 1-2
 
-# Soup
+# Ingredients
 * 1/2 cup medium sized prawns, peeled
 * 1 cup white mushrooms cut into quarters
 * 1 piece of lemongrass, cut into pieces
@@ -23,7 +23,8 @@ Services 1-2
 * 2 tbsp coconut milk
 * 3 bird's eye chilis
 
-Put lemongrass, galangal ginger, kaffir lime leaves, mushrooms, chilis and tomato into water and bring to boil. Cook until tender.
-Add parwns, cook until tender.
-Add coconut milk, lime juice, fish sauce, and Thai chili paste.
-Garnish with fresh coriander and green onions. (also good with some rice)
+# Instructions
+1. Put lemongrass, galangal ginger, kaffir lime leaves, mushrooms, chilis and tomato into water and bring to boil. Cook until tender.
+2. Add parwns, cook until tender.
+3. Add coconut milk, lime juice, fish sauce, and Thai chili paste.
+4. Garnish with fresh coriander and green onions. (also good with some rice)
