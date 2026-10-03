@@ -2,7 +2,7 @@
 
 **ALWAYS follow these instructions first and fallback to additional search and context gathering only if the information in these instructions is incomplete or found to be in error.**
 
-This is a recipe collection website built with Hugo 0.147.5, a static site generator, using the Hyde-Y theme. Recipes are organized by meals (breakfast, lunch, dinner) and cuisines (Italian, Korean, etc.).
+This is a recipe collection website built with Hugo 0.147.5, a static site generator, using its own layouts in `layouts/` (no theme). Recipes are organized by meals (breakfast, lunch, dinner) and cuisines (Italian, Korean, etc.).
 
 ## Working Effectively
 
@@ -116,9 +116,11 @@ Source: http://example.com/recipe-source
 ```
 ├── content/recipes/          # ALL RECIPE FILES HERE - 45+ recipe Markdown files
 ├── config.toml              # Main Hugo configuration
-├── themes/hyde-y/           # Hyde-Y theme files (DO NOT MODIFY)
+├── themes/hyde-y/           # Old theme, no longer used by the site
 ├── static/                  # Static assets like images
-├── layouts/                 # Custom layout templates (rarely used)
+├── layouts/                 # All page templates (home, recipe, cuisine/meal lists)
+├── assets/css/site.css      # Site stylesheet, inlined into every page at build time
+├── data/tags.toml           # Emoji and color for each cuisine and meal
 ├── public/                  # Generated static site (created by `hugo` command)
 ├── add-taxonomy.sh          # Script to add meal/cuisine tags to recipes
 ├── .vscode/                 # VS Code settings and extension recommendations

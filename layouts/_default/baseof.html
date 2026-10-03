@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="{{ site.LanguageCode | default "en" }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ if .IsHome }}{{ site.Params.title }}{{ else }}{{ .Title }} · {{ site.Params.title }}{{ end }}</title>
+  {{- $description := site.Params.subtitle -}}
+  {{- if .IsPage }}{{ $description = printf "How we make %s." .Title }}{{ end }}
+  <meta name="description" content="{{ $description }}">
+  <meta property="og:title" content="{{ if .IsHome }}{{ site.Params.title }}{{ else }}{{ .Title }}{{ end }}">
+  <meta property="og:description" content="{{ $description }}">
+  <meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}">
+  <meta name="theme-color" content="#ffffff">
+  <link rel="icon" href="{{ "favicon.svg" | relURL }}" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:wght@600&display=swap">
+  {{- $css := resources.Get "css/site.css" | minify }}
+  <style>{{ $css.Content | safeCSS }}</style>
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="topbar">
+    <div class="wrap topbar-in">
+      <a class="brand" href="{{ "/" | relURL }}"><span aria-hidden="true">🍳</span> {{ site.Params.title }}</a>
+      <nav aria-label="Main">
+        <a href="{{ "/" | relURL }}">Recipes</a>
+        <a href="{{ "cuisines/" | relURL }}">Cuisines</a>
+      </nav>
+    </div>
+  </header>
+  <main id="main">
+    {{- block "main" . }}{{ end }}
+  </main>
+  <footer class="footer">
+    <div class="wrap">
+      <p>{{ len (where site.RegularPages "Section" "recipes") }} recipes, cooked and collected by {{ site.Params.author }}.</p>
+    </div>
+  </footer>
+  {{- block "scripts" . }}{{ end }}
+</body>
+</html>

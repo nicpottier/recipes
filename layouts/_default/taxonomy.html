@@ -1,0 +1,20 @@
+{{ define "main" }}
+<section class="hero hero-small">
+  <div class="wrap">
+    <h1>{{ .Title }}</h1>
+    <p class="hero-sub">Pick a {{ .Data.Singular }} to see its recipes.</p>
+  </div>
+</section>
+<div class="wrap section">
+  <div class="tiles">
+    {{- range .Data.Terms.Alphabetical }}
+    {{- $tag := partial "tag.html" .Page.Title }}
+    <a class="tile" href="{{ .Page.RelPermalink }}" style="--h:{{ $tag.hue }}">
+      <span class="tile-emoji" aria-hidden="true">{{ $tag.emoji }}</span>
+      <span class="tile-name">{{ .Page.Title }}</span>
+      <span class="tile-n">{{ .Count }} recipe{{ if ne .Count 1 }}s{{ end }}</span>
+    </a>
+    {{- end }}
+  </div>
+</div>
+{{ end }}

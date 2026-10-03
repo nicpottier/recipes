@@ -1,0 +1,3 @@
+{{/* Returns the emoji and hue for a cuisine or meal name. */}}
+{{ $key := lower . }}
+{{ return index site.Data.tags $key | default site.Data.tags.default }}

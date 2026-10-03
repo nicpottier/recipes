@@ -1,0 +1,17 @@
+{{ define "main" }}
+{{- $tag := partial "tag.html" .Title }}
+<section class="hero hero-small" style="--h:{{ $tag.hue }}">
+  <div class="wrap">
+    <p class="kicker"><a href="{{ .Parent.RelPermalink }}">{{ .Data.Plural | title }}</a></p>
+    <h1><span aria-hidden="true">{{ $tag.emoji }}</span> {{ .Title }}</h1>
+    <p class="hero-sub">{{ len .Pages }} recipe{{ if ne (len .Pages) 1 }}s{{ end }}</p>
+  </div>
+</section>
+<div class="wrap section">
+  <div class="grid">
+    {{- range .Pages.ByTitle }}
+    {{ partial "card.html" . }}
+    {{- end }}
+  </div>
+</div>
+{{ end }}
