@@ -5,9 +5,9 @@ meals = ["dinner"]
 cuisines = ["italian"]
 +++
 
-From: https://therecipecritic.com/2016/10/creamy-tuscan-garlic-tortellini-soup/
+Source: https://therecipecritic.com/2016/10/creamy-tuscan-garlic-tortellini-soup/
 
-# Soup
+# Ingredients
 * 2 Tablespoons butter
 * 1 small white onion, diced
 * 3 cloves garlic, minced
@@ -22,6 +22,7 @@ From: https://therecipecritic.com/2016/10/creamy-tuscan-garlic-tortellini-soup/
 * 9 ounce refrigerated tortellini
 * 2 cups spinach
 
-1. In a large pot over medium heat, heat up the butter. Add onion and garlic and cook until tender. Add chicken broth, diced tomatoes, white beans, heavy cream, parmesan cheese, italian seasoning, salt and pepper. Bring to a simmer.
-
-2. Add the tortellini, and spinach. Let simmer for 10 minutes to thicken up and for the tortellini to cook.
+# Instructions
+1. In a large pot over medium heat, heat up the butter. Add onion and garlic and cook until tender.
+2. Add chicken broth, diced tomatoes, white beans, heavy cream, parmesan cheese, italian seasoning, salt and pepper. Bring to a simmer.
+3. Add the tortellini, and spinach. Let simmer for 10 minutes to thicken up and for the tortellini to cook.

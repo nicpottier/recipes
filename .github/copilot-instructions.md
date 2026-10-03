@@ -100,6 +100,8 @@ cuisines = ["italian", "american", "mexican"]
 
 Source: http://example.com/recipe-source
 
+Serves 4
+
 # Ingredients
 * Ingredient 1
 * Ingredient 2
@@ -107,7 +109,12 @@ Source: http://example.com/recipe-source
 # Instructions
 1. Step 1
 2. Step 2
+
+# Notes
+Storage, do-ahead, substitution, and serving notes as plain paragraphs.
 ```
+
+For recipes with several components (a sauce, a filling, etc.), add matching `## Component` subheadings under both `# Ingredients` and `# Instructions`; step numbering restarts in each. Keep lists tight (no blank lines between items) and keep notes as paragraphs, not bullets, since bullets render as tappable checklist items.
 
 **Critical**: Always preserve the `+++` frontmatter format. Invalid frontmatter will break the site build.
 

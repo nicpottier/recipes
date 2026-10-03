@@ -5,6 +5,7 @@ meals = ["dinner"]
 cuisines = ["italian"]
 +++
 
+# Ingredients
 * 1 white onion, diced
 * 4 cloves garlic, minced
 * italian seasoning
@@ -16,12 +17,9 @@ cuisines = ["italian"]
 * 1/2 cup parmesan cheese
 * 1 bag bowtie pasta, cooked
 
+# Instructions
 1. Cook onion and garlic with olive oil until tender
-
 2. Add tomatoes and seasonings, cook down into sauce
-
 3. In separate pot, cook spinach and drain, chop, then add to sauce
-
 4. Add ricotta to sauce, incorporate, add cooked pasta, incorporate
-
 5. Sprinkle parmesan on top, then broil for 10 minutes, rotating to make sure it doesn't burn

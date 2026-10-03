@@ -5,10 +5,9 @@ meals = ["dinner"]
 cuisines = ["north african"]
 +++
 
-From: https://cooking.nytimes.com/recipes/1014721-shakshuka-with-feta
+Source: https://cooking.nytimes.com/recipes/1014721-shakshuka-with-feta
 
-## Ingredients
-
+# Ingredients
 * 3 tbsp extra-virgin olive oil
 * 1 large onion, halved and thinly sliced
 * 1 large red bell pepper, seeded and thinly sliced
@@ -25,10 +24,10 @@ From: https://cooking.nytimes.com/recipes/1014721-shakshuka-with-feta
 * Rustic bread to accompany
 * Hot sauce, for serving
 
-## Preparation
-
-Heat oven to 375 degrees.
-
-Heat oil in a large skillet over medium-low heat. Add onion and bell pepper. Cook gently until very soft, about 20 minutes. Add garlic and cook until tender, 1 to 2 minutes; stir in cumin, paprika and cayenne, and cook 1 minute. Pour in tomatoes and season with 3/4 teaspoon salt and 1/4 teaspoon pepper; simmer until tomatoes have thickened, about 10 minutes. Stir in crumbled feta.
-
-Gently crack eggs into skillet over tomatoes. Season with salt and pepper. Transfer skillet to oven and bake until eggs are just set, 7 to 10 minutes. Sprinkle with cilantro and serve with hot sauce.
+# Instructions
+1. Heat oven to 375 degrees.
+2. Heat oil in a large skillet over medium-low heat. Add onion and bell pepper. Cook gently until very soft, about 20 minutes.
+3. Add garlic and cook until tender, 1 to 2 minutes; stir in cumin, paprika and cayenne, and cook 1 minute.
+4. Pour in tomatoes and season with 3/4 teaspoon salt and 1/4 teaspoon pepper; simmer until tomatoes have thickened, about 10 minutes. Stir in crumbled feta.
+5. Gently crack eggs into skillet over tomatoes. Season with salt and pepper.
+6. Transfer skillet to oven and bake until eggs are just set, 7 to 10 minutes. Sprinkle with cilantro and serve with hot sauce.

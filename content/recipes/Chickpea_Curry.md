@@ -5,7 +5,7 @@ meals = ["dinner"]
 cuisines = ["indian"]
 +++
 
-From: https://makeitdairyfree.com/easy-vegan-chickpea-curry/
+Source: https://makeitdairyfree.com/easy-vegan-chickpea-curry/
 
 # Ingredients
 * 1 tbsp olive oil
@@ -28,15 +28,10 @@ From: https://makeitdairyfree.com/easy-vegan-chickpea-curry/
 * 29 oz chickpeas, rinsed and drained (878g)
 * 2-3 cups fresh spinach, packed, chopped
 
-# Preparation
+# Instructions
 1. In a large skillet with high walls, over medium heat, add oil. Add onion and cook until softened. Toss in garlic, thyme and ginger to cook for an additional minute.
-
 2. Next, add in your chopped tomatoes and cook for a few minutes to soften. Push down on tomatoes to help fall apart.
-
 3. Mix together tomato paste and water and add in with all the spices (from curry powder to red pepper flakes), then stir to combine. Add a little oil if needed to help create paste like mixture.
-
 4. Stir in coconut milk and stock until mixture is well combined. Add in chickpeas and bring to a simmer. Allow curry to simmer for 20-25 minutes to reduce and become creamy.
-
 5. Stir in your spinach to wilt and gently cook until ready 1 - 2 minutes.
-
-Serve with rice, naan, quinoa, etc. then top with fresh red or green onions, additional red flakes, and more! Enjoy!
+6. Serve with rice, naan, quinoa, etc. then top with fresh red or green onions, additional red flakes, and more! Enjoy!

@@ -5,9 +5,10 @@ meals = ["dinner"]
 cuisines = ["mexican"]
 +++
 
-From: http://hostthetoast.com/blackened-fish-tacos-avocado-cilantro-sauce/
+Source: http://hostthetoast.com/blackened-fish-tacos-avocado-cilantro-sauce/
 
-## Fish 
+# Ingredients
+## Fish
 * 1 1/2 lbs tilapia or trout fillets
 * 1 1/2 tsp chili powder
 * 1 1/2 tsp smoked paprika
@@ -18,18 +19,13 @@ From: http://hostthetoast.com/blackened-fish-tacos-avocado-cilantro-sauce/
 * 1/2 tsp salt
 * 1/2 tsp brown sugar
 
-Combine all spices, sprinkle over fish evenly on both sides. Heat pan to high heat, add oil, pan fry fish until blackened, flip and blacken on other side.
-
 ## Slaw
 * cabbage (red or white), sliced thin
 * 1/2 medium onion, sliced thin
 * 1/2 cup cilantro, chipped
 * Juice from one lime
 
-Combine all ingredients in a bowl, let sit.
-
 ## Avocado Cilantro Sauce
-
 * 1/2 cup sour cream
 * 1 ripe avocado, pitted and skinned
 * 1/4 cup cilantro, chipped
@@ -37,6 +33,16 @@ Combine all ingredients in a bowl, let sit.
 * 1 Jalapeno, chopped and seeded
 * Salt to taste
 
-Combine all ingredients, mix.
+# Instructions
+## Fish
+1. Combine all spices, sprinkle over fish evenly on both sides.
+2. Heat pan to high heat, add oil, pan fry fish until blackened, flip and blacken on other side.
 
-Serve on corn tortillas, add salsa and siracha.
+## Slaw
+1. Combine all ingredients in a bowl, let sit.
+
+## Avocado Cilantro Sauce
+1. Combine all ingredients, mix.
+
+## To Serve
+1. Serve on corn tortillas, add salsa and siracha.

@@ -4,9 +4,10 @@ date = "2016-10-24"
 meals = ["dinner"]
 cuisines = ["thai"]
 +++
+
 services 1-2
 
-# Curry
+# Ingredients
 * 1/4 cup sliced tofu or mushrooms
 * 1 tbsp green curry paste
 * 1/4 cup eggplant cut into bite sized pieces
@@ -19,6 +20,7 @@ services 1-2
 * 1/2 tbsp fish sauce
 * 1 tbsp tamarind paste
 
+# Instructions
 1. Put oil in wok over low heat.
 2. Add curry paste and stir constantly until fragrant.
 3. Add tofu fry until cooked

@@ -5,17 +5,17 @@ meals = ["dinner"]
 cuisines = ["american"]
 +++
 
+Source: [https://natashaskitchen.com/chickpea-salad-recipe/](https://natashaskitchen.com/chickpea-salad-recipe/)
 
-From: [http://mykoreankitchen.com/bibimbap-korean-mixed-rice-with-meat-and-assorted-vegetables/](https://natashaskitchen.com/chickpea-salad-recipe/)
-
-# Dressing
+# Ingredients
+## Dressing
 * 3 Tbsp extra virgin olive oil
 * 3 Tbsp lemon juice, from 1 large lemon
 * 1 garlic clove, pressed or minced
 * 1/2 tsp sea salt, or to taste
 * 1/8 tsp black pepper
 
-# Salad
+## Salad
 * 1 1/2 cups cherry tomatoes, halved
 * 1 English Cucumber, halved and sliced
 * 15 oz chickpeas, or garbanzo beans, drained, rinsed

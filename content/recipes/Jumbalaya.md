@@ -5,7 +5,7 @@ meals = ["dinner"]
 cuisines = ["american"]
 +++
 
-From: [https://www.youtube.com/watch?v=F2c7sgMJs10&t=190s](https://www.fromthecomfortofmybowl.com/vegan-jambalaya/)
+Source: [https://www.fromthecomfortofmybowl.com/vegan-jambalaya/](https://www.fromthecomfortofmybowl.com/vegan-jambalaya/)
 
 # Ingredients
 * 3 oz (85 g) soy curls, or Textured Vegetable Protein Chunks
@@ -28,7 +28,7 @@ From: [https://www.youtube.com/watch?v=F2c7sgMJs10&t=190s](https://www.fromtheco
 * 4 cups (1 L) vegetable broth
 * 1 can pinto beans
 
-# Preparation
+# Instructions
 1. Add the soy curls or chunks to a bowl and cover with ½ cup water or broth. Allow it to rehydrate for 10 minutes.
 2. Heat the oil in a large pot or dutch oven on medium heat and add the sliced vegan sausages. Cook until browned all over. Remove from the pot and set aside.
 3. Add the onions and celery. Cook and stir occasionally until browned.
