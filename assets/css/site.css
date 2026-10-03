@@ -1,16 +1,17 @@
 :root {
-  --bg: #f6f8f5;
+  --bg: #ffffff;
   --surface: #ffffff;
-  --ink: #17201b;
-  --muted: #5c6a62;
-  --line: #e1e7e2;
-  --accent: #1d7a4c;
+  --soft: #f3f6f4;
+  --ink: #141a17;
+  --muted: #5b6762;
+  --line: #e3e8e5;
+  --accent: #08844a;
   --accent-ink: #ffffff;
-  --accent-soft: #e0f0e6;
-  --art-l: 90%;
-  --art-s: 70%;
+  --accent-soft: #e3f4ea;
+  --art-l: 88%;
+  --art-s: 85%;
   --art-a: 1;
-  --shadow: 0 1px 2px rgb(20 40 30 / 6%), 0 4px 16px rgb(20 40 30 / 6%);
+  --shadow: 0 2px 10px rgb(20 40 30 / 8%);
   --radius: 16px;
   --display: "Fraunces", Georgia, "Times New Roman", serif;
   --body: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", sans-serif;
@@ -21,6 +22,7 @@
   :root {
     --bg: #0f1412;
     --surface: #18201c;
+    --soft: #18201c;
     --ink: #edf3ef;
     --muted: #9cafa4;
     --line: #29332e;
@@ -99,9 +101,7 @@ h1, h2, h3, h4 {
   position: sticky;
   top: 0;
   z-index: 5;
-  background: color-mix(in srgb, var(--bg) 88%, transparent);
-  backdrop-filter: saturate(1.4) blur(10px);
-  -webkit-backdrop-filter: saturate(1.4) blur(10px);
+  background: var(--bg);
   border-bottom: 1px solid var(--line);
 }
 
@@ -137,10 +137,7 @@ h1, h2, h3, h4 {
 /* Hero */
 
 .hero {
-  padding: 40px 0 28px;
-  background:
-    radial-gradient(ellipse at 90% 0%, color-mix(in srgb, var(--accent) 16%, transparent), transparent 60%),
-    radial-gradient(ellipse at 0% 0%, color-mix(in srgb, #4fa3d9 12%, transparent), transparent 55%);
+  padding: 40px 0 24px;
 }
 
 .hero h1 {
@@ -155,11 +152,8 @@ h1, h2, h3, h4 {
   max-width: 36em;
 }
 
-.hero-small { padding: 32px 0 20px; }
+.hero-small { padding: 32px 0 8px; }
 .hero-small .hero-sub { margin-bottom: 0; }
-.hero-small[style] {
-  background: linear-gradient(180deg, hsl(var(--h) var(--art-s) var(--art-l) / var(--art-a)), var(--bg));
-}
 
 .kicker {
   margin: 0 0 6px;
@@ -186,14 +180,13 @@ h1, h2, h3, h4 {
   gap: 10px;
   padding: 0 16px;
   min-height: 52px;
-  background: var(--surface);
-  border: 1px solid var(--line);
+  background: var(--soft);
+  border: 1.5px solid var(--soft);
   border-radius: 999px;
-  box-shadow: var(--shadow);
   color: var(--muted);
 }
 
-.search:focus-within { border-color: var(--accent); }
+.search:focus-within { border-color: var(--accent); background: var(--surface); }
 
 .search input {
   flex: 1;
@@ -323,15 +316,14 @@ h1, h2, h3, h4 {
   background: var(--surface);
   border: 1px solid var(--line);
   border-radius: var(--radius);
-  box-shadow: var(--shadow);
   color: var(--ink);
   text-decoration: none;
-  transition: transform 0.15s ease, border-color 0.15s ease;
+  transition: box-shadow 0.15s ease, border-color 0.15s ease;
 }
 
 .card:hover {
-  transform: translateY(-2px);
-  border-color: hsl(var(--h) 45% 60%);
+  border-color: hsl(var(--h) 60% 70%);
+  box-shadow: var(--shadow);
 }
 
 .card-art {
@@ -413,8 +405,7 @@ h1, h2, h3, h4 {
 /* Recipe page */
 
 .recipe-hero {
-  padding: 28px 0 24px;
-  background: linear-gradient(180deg, hsl(var(--h) var(--art-s) var(--art-l) / var(--art-a)), var(--bg));
+  padding: 28px 0 16px;
 }
 
 .recipe-emoji {
@@ -424,8 +415,7 @@ h1, h2, h3, h4 {
   height: 72px;
   margin-bottom: 14px;
   border-radius: 20px;
-  background: var(--surface);
-  box-shadow: var(--shadow);
+  background: hsl(var(--h) var(--art-s) var(--art-l) / var(--art-a));
   font-size: 2.4rem;
 }
 
@@ -517,15 +507,15 @@ h1, h2, h3, h4 {
   top: 12px;
   width: 22px;
   height: 22px;
-  border: 2px solid hsl(var(--h) 40% 55%);
+  border: 2px solid var(--accent);
   border-radius: 50%;
 }
 
 .prose ul > li.done { color: var(--muted); text-decoration: line-through; }
 
 .prose ul > li.done::before {
-  background: hsl(var(--h) 45% 45%);
-  border-color: hsl(var(--h) 45% 45%);
+  background: var(--accent);
+  border-color: var(--accent);
   box-shadow: inset 0 0 0 4px var(--bg);
 }
 
@@ -538,8 +528,8 @@ h1, h2, h3, h4 {
   position: relative;
   margin: 0 0 12px;
   padding: 16px 16px 16px 58px;
-  background: var(--surface);
-  border: 1px solid var(--line);
+  background: var(--soft);
+  border: 1px solid var(--soft);
   border-radius: var(--radius);
   cursor: pointer;
   line-height: 1.65;
