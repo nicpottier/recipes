@@ -1,15 +1,16 @@
 :root {
-  --bg: #fbf6ee;
+  --bg: #f6f8f5;
   --surface: #ffffff;
-  --ink: #2b2119;
-  --muted: #6f6256;
-  --line: #ebe1d3;
-  --accent: #b84a26;
+  --ink: #17201b;
+  --muted: #5c6a62;
+  --line: #e1e7e2;
+  --accent: #1d7a4c;
   --accent-ink: #ffffff;
-  --accent-soft: #f6e3d7;
+  --accent-soft: #e0f0e6;
   --art-l: 90%;
   --art-s: 70%;
-  --shadow: 0 1px 2px rgb(60 40 20 / 6%), 0 4px 16px rgb(60 40 20 / 6%);
+  --art-a: 1;
+  --shadow: 0 1px 2px rgb(20 40 30 / 6%), 0 4px 16px rgb(20 40 30 / 6%);
   --radius: 16px;
   --display: "Fraunces", Georgia, "Times New Roman", serif;
   --body: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", sans-serif;
@@ -18,16 +19,17 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --bg: #1b1613;
-    --surface: #251e1a;
-    --ink: #f3ebe1;
-    --muted: #b4a698;
-    --line: #3a3029;
-    --accent: #f08c62;
-    --accent-ink: #1b1613;
-    --accent-soft: #3d2a20;
-    --art-l: 26%;
-    --art-s: 35%;
+    --bg: #0f1412;
+    --surface: #18201c;
+    --ink: #edf3ef;
+    --muted: #9cafa4;
+    --line: #29332e;
+    --accent: #5cd096;
+    --accent-ink: #0b1510;
+    --accent-soft: #1b3326;
+    --art-l: 55%;
+    --art-s: 65%;
+    --art-a: 0.18;
     --shadow: 0 1px 2px rgb(0 0 0 / 30%);
   }
 }
@@ -137,8 +139,8 @@ h1, h2, h3, h4 {
 .hero {
   padding: 40px 0 28px;
   background:
-    radial-gradient(circle at 85% 0%, color-mix(in srgb, var(--accent) 16%, transparent), transparent 55%),
-    radial-gradient(circle at 0% 100%, color-mix(in srgb, #e9b949 18%, transparent), transparent 50%);
+    radial-gradient(ellipse at 90% 0%, color-mix(in srgb, var(--accent) 16%, transparent), transparent 60%),
+    radial-gradient(ellipse at 0% 0%, color-mix(in srgb, #4fa3d9 12%, transparent), transparent 55%);
 }
 
 .hero h1 {
@@ -156,7 +158,7 @@ h1, h2, h3, h4 {
 .hero-small { padding: 32px 0 20px; }
 .hero-small .hero-sub { margin-bottom: 0; }
 .hero-small[style] {
-  background: linear-gradient(180deg, hsl(var(--h) var(--art-s) var(--art-l)), var(--bg));
+  background: linear-gradient(180deg, hsl(var(--h) var(--art-s) var(--art-l) / var(--art-a)), var(--bg));
 }
 
 .kicker {
@@ -339,7 +341,7 @@ h1, h2, h3, h4 {
   width: 64px;
   height: 64px;
   border-radius: 12px;
-  background: hsl(var(--h) var(--art-s) var(--art-l));
+  background: hsl(var(--h) var(--art-s) var(--art-l) / var(--art-a));
   font-size: 2rem;
   line-height: 1;
 }
@@ -390,7 +392,7 @@ h1, h2, h3, h4 {
   gap: 2px;
   padding: 18px 16px;
   border-radius: var(--radius);
-  background: hsl(var(--h) var(--art-s) var(--art-l));
+  background: hsl(var(--h) var(--art-s) var(--art-l) / var(--art-a));
   color: var(--ink);
   text-decoration: none;
   transition: transform 0.15s ease;
@@ -412,7 +414,7 @@ h1, h2, h3, h4 {
 
 .recipe-hero {
   padding: 28px 0 24px;
-  background: linear-gradient(180deg, hsl(var(--h) var(--art-s) var(--art-l)), var(--bg));
+  background: linear-gradient(180deg, hsl(var(--h) var(--art-s) var(--art-l) / var(--art-a)), var(--bg));
 }
 
 .recipe-emoji {

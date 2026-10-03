@@ -10,7 +10,6 @@
         <svg aria-hidden="true" viewBox="0 0 24 24" width="20" height="20"><circle cx="11" cy="11" r="7" fill="none" stroke="currentColor" stroke-width="2"/><path d="m20 20-4-4" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
         <input id="q" type="search" placeholder="Search by name or ingredient" autocomplete="off" enterkeyhint="search">
       </label>
-      <button id="surprise" class="btn" type="button" hidden><span aria-hidden="true">🎲</span> Surprise me</button>
     </div>
   </div>
 </section>
@@ -54,7 +53,6 @@
   const recent = document.getElementById('recent');
   const count = document.getElementById('count');
   const empty = document.getElementById('empty');
-  const surprise = document.getElementById('surprise');
   let cuisine = '';
 
   const apply = () => {
@@ -81,12 +79,6 @@
     });
   }
   q.addEventListener('input', apply);
-
-  surprise.hidden = false;
-  surprise.addEventListener('click', () => {
-    const visible = cards.filter(c => !c.hidden);
-    if (visible.length) location.href = visible[Math.floor(Math.random() * visible.length)].href;
-  });
 
   if (q.value) apply();
 })();
