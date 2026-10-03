@@ -1,3 +1,3 @@
 {{- /* Shift content headings down one level so the recipe title is the only h1. */ -}}
 {{- $level := add .Level 1 }}{{ if gt $level 6 }}{{ $level = 6 }}{{ end -}}
-<h{{ $level }} id="{{ .Anchor }}">{{ .Text }}</h{{ $level }}>
+<h{{ $level }} id="{{ .Anchor }}">{{ .Text | safeHTML }}</h{{ $level }}>
